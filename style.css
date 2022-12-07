@@ -1,5 +1,39 @@
 body{
-    background-color: #000000;
-    color: rgb(252, 249, 243);
-    text-align: center;
+ background-color: rgb(6, 25, 47);
+ color: aliceblue;
+}
+
+#header{
+padding-left:50px;
+padding-right:30px;
+padding-top: 30px;
+padding-bottom: 30px;
+font-size: 24px;
+}
+#leftbox {
+  float:left; 
+  width:60%;
+  height:30Px;
+  font-size: 30px;
+}
+#middlebox{
+  float:left; 
+  width:20%;
+  height:30px;
+  font-size: 30px;
+}
+#rightbox{
+  float:right;
+  width:10%;
+  height:30px;
+  font-size: 30px;
+}
+#middlebox2{
+  float:left; 
+  width:10%;
+  height:30px;
+  font-size: 30px;
+}
+#center{
+  font-size: 40px;
 }
