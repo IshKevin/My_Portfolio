@@ -32,6 +32,9 @@ a:active {
   margin-right:30px;
   margin-top: 15px;
 }
+#icon1{
+  font-size: 24px;
+}
 
 #header{
   width: 100%;
@@ -65,7 +68,7 @@ a:active {
   float:left;
   padding-left: 30px;
   font-family: Sans-serif;
-  font-weight: bold;
+
 }
 #center2{
   float:right;
