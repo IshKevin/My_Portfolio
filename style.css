@@ -2,7 +2,36 @@ body{
  background-color: rgb(6, 25, 47);
  color: aliceblue;
 }
+a:link {
+   text-decoration: none; 
+  }
 
+
+a:visited {
+   text-decoration: none;
+   }
+
+
+a:hover { 
+  text-decoration: none;
+ }
+
+
+a:active { 
+  text-decoration: none; 
+}
+#div1{
+  float: left;
+  margin-right:30px;
+  margin-top: 15px;
+
+}
+#div2{
+  float: right;
+  font-size: 24px;
+  margin-right:30px;
+  margin-top: 15px;
+}
 
 #header{
   width: 100%;
@@ -35,10 +64,14 @@ body{
 #center1{
   float:left;
   padding-left: 30px;
+  font-family: Sans-serif;
+  font-weight: bold;
 }
 #center2{
   float:right;
   padding-left: 300px;
+  font-family: Sans-serif;
+  font-weight: 	Light;
 }
 
 .v16_7 {
