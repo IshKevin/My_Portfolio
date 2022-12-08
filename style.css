@@ -3,7 +3,8 @@ body{
  color: aliceblue;
 }
 
-#header{
+
+/*#header{
 
 padding-right:30px;
 padding-top: 30px;
@@ -39,7 +40,7 @@ font-size: 24px;
   font-size: 30px;
   padding-top: 30px;
   padding-right:30px;
-}
+}*/
 #center{
   font-size: 40px;
   padding-top: 150px;
