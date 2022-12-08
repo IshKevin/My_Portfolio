@@ -4,46 +4,31 @@ body{
 }
 
 
-/*#header{
+#header{
+  width: 100%;
+  margin-right:30px;
+  margin-top: 15px;
 
-padding-right:30px;
-padding-top: 30px;
-padding-bottom: 30px;
-font-size: 24px;
+
 }
 #leftbox {
-  float:left; 
-  width:60%;
-  height:30Px;
-  font-size: 30px;
-  padding-top: 30px;
-  padding-left:50px;
+  font-size: 24px;
 }
 #middlebox{
-  float:left; 
-  width:10%;
-  height:30px;
-  font-size: 30px;
-  padding-top: 30px;
+  font-size: 24px;
 }
 #rightbox{
-  float:right;
-  width:15%;
-  height:30px;
-  font-size: 30px;
-  padding-top: 30px;
+  font-size: 24px;
 }
 #middlebox2{
-  float:right; 
-  width:10%;
-  height:30px;
-  font-size: 30px;
-  padding-top: 30px;
-  padding-right:30px;
-}*/
+  font-size: 24px;
+}
+#lastbox{
+  font-size: 24px;
+}
 #center{
   font-size: 40px;
-  padding-top: 150px;
+
   
 }
 #center1{
