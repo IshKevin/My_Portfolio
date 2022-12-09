@@ -90,6 +90,7 @@ a:active {
   border: 1px solid #ddd;
   border-radius: 10px;
   padding: 5px;
+  box-shadow: 0 10px 12px 0 rgba(244, 239, 239, 0.2), 0 6px 20px 0 rgba(243, 6, 6, 0.19);
   
 }
 #c1{
