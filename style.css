@@ -1,6 +1,11 @@
 body{
  background-color: rgb(6, 25, 47);
  color: aliceblue;
+ width: 100%;
+ height: 100%;
+}
+#top{
+  float: top;
 }
 a:link {
    text-decoration: none; 
@@ -37,9 +42,9 @@ a:active {
 }
 
 #header{
-  width: 100%;
   margin-right:30px;
-  margin-top: 15px;
+  border-collapse:separate;
+  border-spacing:40px; 
 
 
 }
@@ -58,23 +63,36 @@ a:active {
 #lastbox{
   font-size: 24px;
 }
-#center{
-  font-size: 40px;
-  margin-top: 150px;
 
-  
+#centerleft{
+  float: left;
+  padding-left: 50px;
+  /*padding-top: 250px;*/
+  width: 60%;
+  font-size: 40px;
+}
+#centerright{
+  float: right;
+  padding-top: 250px;
+  padding-left: 30px;
+  width: 40%;
+}
+#center{
+  font-size: 80px;
+  margin-top: 150px;
 }
 #center1{
-  float:left;
-  padding-left: 30px;
+
   font-family: Sans-serif;
 
 }
 #center2{
-  float:right;
-  padding-left: 300px;
-  font-family: Sans-serif;
-  font-weight: 	Light;
+  font-family:"Lucida Console", "Courier New", monospace;
+}
+#c1{
+  font-size: 50px;
+  font-weight: bold;
+  
 }
 
 .v16_7 {
