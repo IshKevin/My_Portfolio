@@ -1,0 +1,34 @@
+#hd{
+    text-align: center;
+    font-family: fantasy;
+  }
+  #hd2{
+    text-align: center;
+    font-family:Calibri;
+  }
+  .lab{
+    
+    font-family:Calibri; 
+  }
+  input[type="text"],input[type="password"] {
+    width: 320px;
+    height: 25px;
+}
+#button{
+    width: 320px;
+    height: 40px;
+    background-color:rgb(40, 122, 237);
+    color:white;
+    border-radius: 15px; 
+    border-color:none;
+}
+
+#sp{
+    text-align: center;
+    font-family:Calibri;
+    font-size: 10px;
+    color:azure;
+}
+#message{
+    margin-top: 300px;
+}
