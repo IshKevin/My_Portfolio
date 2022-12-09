@@ -67,13 +67,13 @@ a:active {
 #centerleft{
   float: left;
   padding-left: 50px;
-  padding-top: 100px;
+  padding-top: 80px;
   width: 60%;
   font-size: 40px;
 }
 #centerright{
   float: right;
-  padding-top: 100px;
+  padding-top: 90px;
   padding-left: 30px;
   width: 40%;
 }
@@ -87,7 +87,10 @@ a:active {
 
 }
 #center2{
-  font-family:"Lucida Console", "Courier New", monospace;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 5px;
+  
 }
 #c1{
   font-size: 50px;
