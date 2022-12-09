@@ -67,13 +67,13 @@ a:active {
 #centerleft{
   float: left;
   padding-left: 50px;
-  padding-top: 150px;
+  padding-top: 100px;
   width: 60%;
   font-size: 40px;
 }
 #centerright{
   float: right;
-  padding-top: 150px;
+  padding-top: 100px;
   padding-left: 30px;
   width: 40%;
 }
