@@ -138,7 +138,6 @@
   .v132_38 {
     width: 146px;
     height: 136px;
-    background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
     top: 1126px;
@@ -164,9 +163,8 @@
     left: 38px;
   }
   .v132_41 {
-    width: 121px;
-    height: 121px;
-    background: rgba(255,255,255,1);
+    width: 135px;
+    height: 135px;
     opacity: 1;
     position: absolute;
     top: 1126px;
@@ -246,9 +244,8 @@
     left: 1px;
   }
   .v132_50 {
-    width: 121px;
-    height: 103px;
-    background: rgba(255,255,255,1);
+    width: 135px;
+    height: 150px;
     opacity: 1;
     position: absolute;
     top: 1134px;
@@ -294,7 +291,6 @@
   .v132_55 {
     width: 115px;
     height: 135px;
-    background: rgba(255,255,255,1);
     opacity: 1;
     position: absolute;
     top: 1102px;
@@ -359,7 +355,6 @@
   .v132_62 {
     width: 83px;
     height: 72px;
-    background: rgba(0,95,145,1);
     opacity: 1;
     position: absolute;
     top: 10px;
