@@ -336,3 +336,7 @@ body {
     top: 6px;
     left: 6px;
   }
+ #head{
+  text-align: center;
+  font-size: 60px;
+ }
