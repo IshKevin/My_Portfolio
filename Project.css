@@ -403,3 +403,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+  #pra{
+    font-size: 40;
+    font-weight: 300;
+    padding-left: 80px;
+    text-align: right;
+
+  }
