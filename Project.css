@@ -360,3 +360,7 @@
     top: 10px;
     left: 6px;
   }
+  #title{
+    text-align: center;
+    font-weight: 500;
+  }
