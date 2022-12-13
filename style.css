@@ -265,6 +265,7 @@ a:active {
   left: 0;
   bottom: 0;
   width: 100%;
+  height: 50px;
   background-color: rgb(6, 25, 47);
   color: rgba(132, 131, 131, 0.629);
   text-align: center;
