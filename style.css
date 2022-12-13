@@ -7,7 +7,7 @@ body{
 }
 
 .topnav {
-  background-color: rgb(6, 25, 47);;
+  background-color: rgb(6, 25, 47);
   overflow: hidden;
   margin-top: 10px;
   margin-left: 10px;
@@ -260,17 +260,36 @@ a:active {
   opacity: 1;
   text-align: left;
 }
-.footer {
+.navbar {
+  background-color: rgb(6, 25, 47);
+  overflow: hidden;
   position: fixed;
-  left: 0;
   bottom: 0;
   width: 100%;
-  height: 50px;
-  background-color: rgb(6, 25, 47);
-  color: rgba(132, 131, 131, 0.629);
   text-align: center;
-  font-size: 16px;
 }
-.botnav{
-  gap: 5px;
+
+.navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+
+.navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+i{
+  text-align: center;
 }
