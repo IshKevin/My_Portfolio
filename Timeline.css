@@ -21,3 +21,8 @@
   color: rgb(0, 0, 0);
   border-radius: 2px;
  }
+ .line-1 {
+    height: 15px;
+    background: rgb(254, 253, 253);
+    width: 300px;
+  }
