@@ -10,6 +10,7 @@
         <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="contact.js"></script>
     </head>
     <body>
         <div class="topnav">
@@ -36,21 +37,22 @@
                 <table id="cont">
                     <tr>
                         <td>
-                <h1>CONTACTS</h1>
                 <form>
-                    <h3 class="lab">CONTACTS</h3>
+                    <h1 class="lab">CONTACTS</h1>
+                    <div class="line-1"></div>
                     <p class="lab"><label for="text">Names</label><br>
-                    <input type="text">
+                    <input type="text" id="in1">
                     </p>
+                    <p id="on"></p>
                     <p class="lab"><label for="text"> Email</label><br>
-                    <input type="text">
+                    <input type="text" id="in2">    
                     </p>
                     <p class="lab"><label for="text">Message</label><br>
                     <textarea rows="5" cols="44" >
                     </textarea>
                     </p>
                     <p>
-                        <input class="lab" type="button" value="SEND">
+                        <input class="lab" type="button" onclick="myFunction()" value="SEND">
                     </p>
                     
                     
