@@ -371,24 +371,24 @@
     margin-right: 30px;
     text-align: center;
   }
-  /*#image1{
-    
-  #image2{
-    
-  }
-  #image3{
-    
-  }*/
+  
   div.pol {
-    width: 80%;
-    background-color: white;
-    box-shadow: 0 4px 8px 0 rgb(250, 250, 250), 0 6px 20px 0 rgba(236, 230, 230, 0.19);
-    margin-bottom: 25px;
+    display: grid;
+    grid-template-rows: 70% 10% 10%;
+    gap: 15px;
+    place-content: center;
+    max-height: 350px;
+
+    padding: 5px;
+
+    border: 1px solid rgb(139, 139, 139);
+    border-radius: 10px;
   }
-  div.container {
-    text-align: center;
-    padding: 10px 20px;
+
+  .pol-heading {
+text-align: center;
   }
+
   #imagetable{
     margin: auto;
     border-spacing: 80px;
@@ -398,10 +398,9 @@
     font-weight: 500;
   }
   .chips{
-    border-spacing: 10px;
-    border-color: white;
-    margin-left: auto;
-    margin-right: auto;
+    display: flex;
+   justify-content: space-evenly;
+   padding: 0 20px;
   }
   #pra{
     font-size: 40;
@@ -409,4 +408,34 @@
     padding-left: 80px;
     text-align: right;
 
+  }
+  .project-1 { 
+   display: flex;
+   justify-content: space-evenly;
+   padding: 0 20px;
+  }
+  #link{
+   float:right;
+   padding-right: 140px;
+   font-size: 10px;
+  }
+  .what{
+    display: grid;
+    grid-template-columns: 50% 50%;
+   justify-content: space-between;
+   padding-top: 40px;
+   padding: 0 20px;
+   
+  }
+  .what-text{
+   margin: 0 auto;
+  }
+  .what-imag{
+    margin: 0 auto;
+    padding-left: 30px;
+  }
+  .line-1 {
+    height: 15px;
+    background: rgb(254, 253, 253);
+    width: 300px;
   }
