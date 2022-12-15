@@ -37,24 +37,23 @@
                 <table id="cont">
                     <tr>
                         <td>
-                <form>
+                <form id="myForm">
                     <h1 class="lab">CONTACTS</h1>
                     <div class="line-1"></div>
                     <p class="lab"><label for="text">Names</label><br>
-                    <input type="text" id="in1">
-                    </p>
-                    <p id="on"></p>
+                    <input type="text" id="name">
+                    <div id="error-message"></div>
                     <p class="lab"><label for="text"> Email</label><br>
-                    <input type="text" id="in2">
+                    <input type="text" id="email">
                     <p id="in2"></p>    
                     </p>
                     
                     <p class="lab"><label for="text">Message</label><br>
-                    <textarea rows="5" cols="44" >
+                    <textarea rows="5" cols="44" id="">
                     </textarea>
                     </p>
                     <p>
-                        <input class="lab" type="button" onclick="namevalid(), emailvalid()" value="SEND">
+                        <input class="lab" type="button" onclick="validateForm()" value="SEND">
                     </p>
                     
                     
