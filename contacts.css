@@ -39,7 +39,7 @@
 img{
   margin-left: 130px;
 }
-input[type=text] {
+input[type=text],input[type=email] {
   border: none;
   border-bottom: 4px solid rgb(255, 254, 254);
   background-color: rgb(6, 25, 47);

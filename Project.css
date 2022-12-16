@@ -429,13 +429,43 @@ text-align: center;
   }
   .what-text{
    margin: 0 auto;
+   padding-left: 80px;
   }
   .what-imag{
     margin: 0 auto;
-    padding-left: 30px;
+    margin-left: 150px;
   }
   .line-1 {
     height: 15px;
     background: rgb(254, 253, 253);
-    width: 300px;
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
   }
+  .python-icon {
+    background-image: url("https://www.python.org/static/img/python-logo.png");
+    background-size: contain;
+    width: 32px;
+    height: 32px;
+  }
+  .tools{
+    display:grid;
+    gap: 60px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  #title2{
+    font-weight: 500;
+    text-align: center;
+  }
+
+  .sub-title{
+    font-weight: 400;
+    text-align: center;
+  }
+  .sub-tool{
+    margin-left: auto;
+    margin-right: auto;
+    gap: 180px;
+  }
+  

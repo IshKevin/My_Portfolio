@@ -37,15 +37,16 @@
                 <table id="cont">
                     <tr>
                         <td>
-                <form id="myForm">
+                <form action="/" id="myForm">
                     <h1 class="lab">CONTACTS</h1>
-                    <div class="line-1"></div>
-                    <p class="lab"><label for="text">Names</label><br>
-                    <input type="text" id="name">
-                    <div id="error-message"></div>
-                    <p class="lab"><label for="text"> Email</label><br>
-                    <input type="text" id="email">
-                    <p id="in2"></p>    
+                    <p class="lab">
+                    <label for="text">Names</label><br>
+                    <input type="text" id="name" name="name">
+                    <div id="error"></div>
+                    <p class="lab">
+                    <label for="text"> Email</label><br>
+                    <input type="text" id="email" name="email" required>
+                    <p id="in2"></p>        
                     </p>
                     
                     <p class="lab"><label for="text">Message</label><br>
