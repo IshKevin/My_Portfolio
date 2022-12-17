@@ -311,25 +311,53 @@ i{
 
 @media only screen and (max-width: 576px) {
   .page-container {
-    width: 100%;
+    width: auto;
   }
-  .topnav {
+  /* .topnav {
    display: inline;
+  } */
+  .topnav {
+    overflow: hidden;
+    background-color: rgb(6, 25, 47);
+    color: #1f1f1f;
+  }
+  
+  .topnav a {
+    float: left;
+    color: #fffdfd;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .topnav a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+  
+  .topnav a.active {
+    background-color: #f6f9f8;
+    color: rgb(15, 15, 15);
   }
   .topnav a.icon {
     float: right;
     display: block;
   }
 
-  
-  .nav-menu {
-    display: none;
-  }
-  .nav-menu-dropdown {
-    display: block;
-  }
   #centerleft{
     display: inline;
+  }
+  #centerright{
+    margin: auto;
+    
+  }
+  
+  #center{
+    border: 1px solid #ddd;
+  border-radius: 50%;
+  padding: 100px;
+  box-shadow: 0 10px 12px 0 rgba(244, 239, 239, 0.2), 0 6px 20px 0 rgba(243, 6, 6, 0.19);
   }
 }
 
