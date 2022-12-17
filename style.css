@@ -9,6 +9,9 @@ body{
 
 .topnav {
   background-color: rgb(6, 25, 47);
+  display: grid;
+  grid-template-columns: 20%  70%;
+  gap: 50px;
   overflow: hidden;
   margin-top: 10px;
   margin-left: 10px;
@@ -24,7 +27,8 @@ body{
   font-size: 24px;
 }
 #tops{
-  float:right;
+  display: flex;
+  margin-left: auto;
 }
 
 /* Change the color of links on hover */
@@ -303,4 +307,34 @@ a:active {
 }
 i{
   text-align: center;
+}
+
+@media only screen and (max-width: 576px) {
+  .page-container {
+    width: 100%;
+  }
+
+  body{
+    background-color: rgb(6, 25, 47);
+    color: aliceblue;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 8px;
+    
+   }
+ .topnav{
+    background-color: rgb(6, 25, 47);
+    display: grid;
+    grid-template-columns: 20%  70%;
+    width: 100%;
+    font-size: 10px;
+    gap: 10px;
+    overflow: hidden;
+ }
+ #tops{
+  display: flex;
+}
+i{
+  font-size: 10px;
+}
 }
