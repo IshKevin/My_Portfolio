@@ -3,7 +3,7 @@ body{
  color: aliceblue;
  margin-left: auto;
  margin-right: auto;
- font-size: 16px;
+ font-size: 14px;
  
 }
 
@@ -101,25 +101,25 @@ a:active {
 }
 
 #centerleft{
-  float: left;
-  padding-left: 50px;
-  padding-top: 90px;
-  width: 60%;
-  font-size: 40px;
+  display: grid;
+    grid-template-columns: 50% 50%;
+   justify-content: space-between;
 }
 #centerright{
-  float: right;
-  padding-top: 90px;
-  padding-left: 30px;
-  width: 40%;
+  margin: auto;
+  
 }
 #center{
   font-size: 80px;
   margin-top: 150px;
 }
 #center1{
-
   font-family: Sans-serif;
+  font-size: 14px;
+  font-weight: 10;
+  margin: auto;
+  padding-left: 50px;
+  padding-bottom: 70px;
 
 }
 #center2{
@@ -262,23 +262,33 @@ a:active {
   text-align: left;
 }
 .navbar {
-  background-color: rgb(6, 25, 47);
-  overflow: hidden;
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  text-align: center;
+  background-color: #ddd;
+ display: grid;
+ height: auto;
 }
 
 .navbar a {
   float: left;
   display: block;
-  color: #f2f2f2;
+  color: rgb(6, 25, 47);
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
 }
+.iconco{
+  display: flex;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#icon-text{
+  color: rgb(6, 25, 47);
+  text-align: center;
+  /* font-size: 10px; */
+}
+.not
+
 
 
 .navbar a:hover {
