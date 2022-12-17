@@ -313,28 +313,23 @@ i{
   .page-container {
     width: 100%;
   }
+  .topnav {
+   display: inline;
+  }
+  .topnav a.icon {
+    float: right;
+    display: block;
+  }
 
-  body{
-    background-color: rgb(6, 25, 47);
-    color: aliceblue;
-    margin-left: auto;
-    margin-right: auto;
-    font-size: 8px;
-    
-   }
- .topnav{
-    background-color: rgb(6, 25, 47);
-    display: grid;
-    grid-template-columns: 20%  70%;
-    width: 100%;
-    font-size: 10px;
-    gap: 10px;
-    overflow: hidden;
- }
- #tops{
-  display: flex;
+  
+  .nav-menu {
+    display: none;
+  }
+  .nav-menu-dropdown {
+    display: block;
+  }
+  #centerleft{
+    display: inline;
+  }
 }
-i{
-  font-size: 10px;
-}
-}
+
