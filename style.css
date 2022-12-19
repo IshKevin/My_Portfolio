@@ -277,6 +277,7 @@ a:active {
   background-color: #ddd;
  display: grid;
  height: auto;
+ margin-top: auto;
 }
 
 .navbar a {
