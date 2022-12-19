@@ -467,4 +467,22 @@ text-align: center;
     margin-left: auto;
     margin-right: auto;
     gap: 180px;
+    
+  }
+  @media only screen and (max-width: 576px) {
+    #project{
+      display: grid;
+      grid-template-rows:auto;
+    }
+    #project-1{
+      display: grid;
+      grid-template-rows:auto;
+
+    }
+    #title{
+      display: inline;
+      font-size: 18px;
+    }
+
+
   }
