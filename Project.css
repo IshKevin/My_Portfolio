@@ -409,11 +409,8 @@ text-align: center;
     text-align: right;
 
   }
-  .project-1 { 
-   display: flex;
-   justify-content: space-evenly;
-   padding: 0 20px;
-  }
+  
+  
   #link{
    float:right;
    padding-right: 140px;
