@@ -785,36 +785,71 @@
                     </div>
                 </div>
 
-                <form action="" class="contact__form grid">
+                <form action="" class="contact__form grid" onsubmit="return validateForm()">
                     <div class="contact__inputs grid">
-                        <div class="contact__content">
-                            <label for="" class="contact__label">Name</label>
-                            <input type="text" class="contact__input" required>
-                        </div>
-
-                        <div class="contact__content">
-                            <label for="" class="contact__label">E-mail</label>
-                            <input type="email" class="contact__input" required>
-                        </div>
+                      <div class="contact__content">
+                        <label for="" class="contact__label">Name</label>
+                        <input type="text" class="contact__input" id="name" required>
+                        <div id="nameError" class="error"></div>
+                      </div>
+                  
+                      <div class="contact__content">
+                        <label for="" class="contact__label">E-mail</label>
+                        <input type="email" class="contact__input" id="email" required>
+                        <div id="emailError" class="error"></div>
+                      </div>
                     </div>
-
+                  
                     <div class="contact__content">
-                        <label for="" class="contact__label">Subject</label>
-                        <input type="text" class="contact__input" required>
+                      <label for="" class="contact__label">Subject</label>
+                      <input type="text" class="contact__input" id="subject" required>
+                      <div id="subjectError" class="error"></div>
                     </div>
-
+                  
                     <div class="contact__content">
-                        <label for="" class="contact__label" >Description</label>
-                        <textarea name="" id="" cols="0" rows="7" class="contact__input"></textarea>
+                      <label for="" class="contact__label" >Description</label>
+                      <textarea name="" id="description" cols="0" rows="7" class="contact__input"></textarea>
                     </div>
-
+                  
                     <div>
-                        <a href="#" class="button button--flex">
-                            Send message
-                            <i class="uil uil-message button__icon"></i>
-                        </a>
+                      <button type="submit" class="button button--flex">
+                        Send message
+                        <i class="uil uil-message button__icon"></i>
+                      </button>
                     </div>
-                </form>
+                  </form>
+                  
+                  <script>
+                    function validateForm() {
+                      // Reset error messages
+                      document.getElementById('nameError').innerHTML = "";
+                      document.getElementById('emailError').innerHTML = "";
+                      document.getElementById('subjectError').innerHTML = "";
+                  
+                      // Get form values
+                      var name = document.getElementById('name').value;
+                      var email = document.getElementById('email').value;
+                      var subject = document.getElementById('subject').value;
+                  
+                      // Check that all required fields are filled out
+                      if (name == "") {
+                        document.getElementById('nameError').innerHTML = "We need to know the sender. Please enter your name.";
+                        return false;
+                      }
+                      if (email == "") {
+                        document.getElementById('emailError').innerHTML = "Please enter your email address.";
+                        return false;
+                      }
+                      if (subject == "") {
+                        document.getElementById('subjectError').innerHTML = "Please enter a subject for your message.";
+                        return false;
+                      }
+                  
+                      // Validation passed, form can be submitted
+                      return true;
+                    }
+                  </script>
+                  
             </div>
 
           
