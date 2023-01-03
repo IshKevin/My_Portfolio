@@ -1,0 +1,6 @@
+This favicon was generated using the following font:
+
+- Font Title: Kosugi
+- Font Author: Copyright 2010 The Kosugi Project Authors (https://github.com/googlefonts/kosugi)
+- Font Source: http://fonts.gstatic.com/s/kosugi/v14/pxiFyp4_v8FCjlI4NLr6f1pdEQ.ttf
+- Font License: Apache License, version 2.0 (http://www.apache.org/licenses/LICENSE-2.0.html))
